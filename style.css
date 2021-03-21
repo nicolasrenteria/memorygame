@@ -1,0 +1,100 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: robot, Courier New;
+  text-align: center;
+  margin: 2em;
+  background-image: linear-gradient(to bottom, #708090, silver);
+  color: white;
+}
+
+h1 {
+  font-family: verdana, 0;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+button {
+  padding: 10px border;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: #FF9AA2;
+}
+#button2 {
+  background: #E2F0CB;
+}
+#button3 {
+  background: #B5EAD7;
+}
+#button4 {
+  background: #C7CEEA;
+}
+
+#button1:active, #button1.lit {
+  background: #DC143C;
+  box-shadow: 2px 7px 40px 20px #E0FFFF;
+}
+#button2:active, #button2.lit{
+  background: #BDB76B;
+  box-shadow: 2px 7px 40px 20px #E0FFFF;
+}
+#button3:active, #button3.lit{
+  background: #2E8B57;
+  box-shadow: 2px 7px 40px 20px #E0FFFF;
+}
+#button4:active, #button4.lit {
+  background: #6A5ACD;
+  box-shadow: 2px 7px 40px 20px #E0FFFF;
+}
+
+.startEndGame > button {
+  width: 200px;
+  background: #E0E5EC;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px rgba(163, 177, 198, 0.5);
+}
+
+.startEndGame > button:active {
+  background: #A3B1C6;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gameControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameButtonArea {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  font-size: 100px;
+}
+
+.welcome {
+  text-align: center;
+}
